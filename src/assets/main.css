@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+/* MAIN */
+
+body {
+  min-height: 100vh;
+  background-color: #181d29;
+}
+
+#app {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center
+  }
+}
